@@ -1,0 +1,43 @@
+{
+  "name": "badhusha-personal-ai-runtime",
+  "version": "1.0.0",
+  "classification": "RECONSTRUCTED",
+  "source": "user-provided codex-kata-production-coding-runtime profile + accessible project instructions",
+  "status": "STRONGLY_SUPPORTED",
+  "base_runtime": "Codex CLI",
+  "principles": [
+    "production readiness",
+    "maintainability",
+    "scalability",
+    "readability",
+    "performance",
+    "security",
+    "testing",
+    "documentation",
+    "monitoring",
+    "observability",
+    "developer experience"
+  ],
+  "reasoning": {
+    "policy": "adaptive",
+    "maximum": "ultra",
+    "anti_runaway": true,
+    "persist_summaries_not_hidden_reasoning": true
+  },
+  "execution": {
+    "autonomous_safe_operations": true,
+    "approval_for_irreversible_or_external_side_effects": true,
+    "failure_loop": "observe -> diagnose -> hypothesis -> repair -> retest -> verify"
+  },
+  "verification": {
+    "required_before_completion": true,
+    "evidence_based": true,
+    "outcome_states": ["VERIFIED", "PARTIALLY_VERIFIED", "BLOCKED", "FAILED"]
+  },
+  "memory": {
+    "working": true,
+    "durable": true,
+    "provenance_required": true,
+    "secrets_forbidden": true
+  }
+}
